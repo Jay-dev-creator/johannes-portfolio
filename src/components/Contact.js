@@ -47,10 +47,10 @@ export const Contact = () => {
                         {/* <!-- <div class="card-header"></div> --> */}
                         <div class="card-body">
                             <div class="card-circle">
-                                <div class="card-circle-icon"><i class="fa fa-map-signs" aria-hidden="true"></i></div>
+                                <div class="card-circle-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                             </div>
-                            <div class="card-heading">Address</div>
-                            <div class="card-para">2 Church Street, Claremont, Cape Town, 7708</div>
+                            <div class="card-heading">Email</div>
+                            <div class="card-para"><a class="card-link" href="mailto:kgatle280@gmail.com">kgatle280@gmail.com</a></div>
                         </div>
                         {/* <!-- <div class="card-footer"></div> --> */}
                     </div>
