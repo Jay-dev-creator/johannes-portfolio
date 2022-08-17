@@ -17,7 +17,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul id="nav-ul" class="navbar-nav">
                 <li class="nav-item navigation-list">
-                    <a class="nav-link nav-custom-link" href="portfolio.html">Home</a>
+                    <a class="nav-link nav-custom-link" href="#top">Home</a>
                 </li>
                 <li class="nav-item navigation-list">
                     <a class="nav-link nav-custom-link" href="#about-me">About</a>
