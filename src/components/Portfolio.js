@@ -29,7 +29,6 @@ export const Portfolio = () => {
                         <img src={require("../assets/savarsity.png")} class="img-fluid image-work"/>
                         <div class="grid__body">
                             <div class="relative">
-                                <a class="grid__link" target="_blank" href="#"></a>
                                 <p class="grid__author"></p>
                             </div>
                             <div class="mt-auto">
@@ -42,7 +41,6 @@ export const Portfolio = () => {
                         <img src={require("../assets/DirectVote.png")} class="img-fluid image-work"/>
                         <div class="grid__body">
                             <div class="relative">
-                                <a class="grid__link" target="_blank" href="#"></a>
                                 <p class="grid__author"></p>
                             </div>
                             <div class="mt-auto">
@@ -55,7 +53,6 @@ export const Portfolio = () => {
                         <img src={require("../assets/donate.png")} class="img-fluid image-work"/>
                         <div class="grid__body">
                             <div class="relative">
-                                <a class="grid__link" target="_blank" href="#"></a>
                                 <p class="grid__author"></p>
                             </div>
                             <div class="mt-auto">
@@ -68,7 +65,7 @@ export const Portfolio = () => {
                         <img src={require("../assets/foodorder.jpeg")} class="img-fluid image-work"/>
                         <div class="grid__body">
                             <div class="relative">
-                                <a class="grid__link" target="_blank" href="#"></a>
+                                {/* <a class="grid__link" target="_blank" href="#"></a> */}
                                 <p class="grid__author"></p>
                             </div>
                             <div class="mt-auto">

@@ -11,10 +11,10 @@ export const Projects = () => {
                         <span class="fw-bold">Donation</span> Website
                     </div>
                     <div class="section-6-para">
-                    HDEF web app is a website for an organization that accepts donations from external donors and offers tuition to University of Limpopo
-                     students. This was part of our final year project, the main function of the application includes capturing information about the users
-                      and the items donated. PostgraSQL was used as our main database to store important information about the donors and the products donated.
-                       It was created using Django, JavaScript, bootstrap, HTML5/CSS, and PostgreSQL database.
+                    A web application for an organization that accepts donations from external donors and offers tuition to University
+                     students. The main functions of the application includes capturing information about the users
+                      and the items donated.<br/>
+                       <b>Tools: PostgraSQL, DJango, Python, JavaScript, HTML5, CSS/Bootstrap </b>
                     </div>
                     <div class="section-6-button">
                         <a href='https://github.com/Jay-dev-creator/HDEFapp' class="sec6-btn text-uppercase fw-bold" target="_blank">View Project</a>
@@ -31,9 +31,8 @@ export const Projects = () => {
                         <span class="fw-bold">SRC Voting </span> System
                     </div>
                     <div class="section-6-para">
-                    A web application that allows users/students to cast votes for the Student Representative Council at 
-                    the University of Limpopo. This is a group project my team and i worked on as part of the software engineering project.
-                     It was created with Django, a python framework, html, CSS and bootstrap.
+                    A web application that allows users/students to cast votes to elect student representatives. Inspired by the pandemic, maintaining social distance and avoiding the spread of the virus.<br/>
+                     <b>Tools: Django, Python, HTML5, CSS/Bootstrap</b>
                     </div>
                     <div class="section-6-button">
                         <a href='https://github.com/Jay-dev-creator/Online-Voting-System' class="sec6-btn text-uppercase fw-bold" target="_blank">View Project</a>
@@ -50,10 +49,10 @@ export const Projects = () => {
                         <span class="fw-bold">SA Varsity</span> Website
                     </div>
                     <div class="section-6-para">
-                    Gets the user's current location, the calculates the distance between the user and 13 South African universities, then displays information
-                     about the universities together with the distance in kilometers. This web application was built to help students who want to 
-                     enroll at University in South African to find the university that is closest to their home or current location . It was built using ReactJS 
-                     (JavaScript) and the styling was done using CSS, then deployed using firebase.
+                    Gets the user's current location, then calculates the distance between the user and 13 South African universities, then displays information
+                     about the universities together with the distance from the user in KM. This web application was built to help students who want to 
+                     enroll at University in South African to find the university that is closest to their home or current location.<br/>
+                     <b>Tools: ReactJS, JavaScript, firebase, HTML5, CSS/Bootstrap</b>
                     </div>
                     <div class="section-6-button">
                         <a href='https://github.com/Jay-dev-creator/SA-Varsity-site' target="_blank" class="sec6-btn text-uppercase fw-bold" onclick="location.href='#'">View Project</a>
