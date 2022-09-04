@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import Pdf from '../constants/Johannes Kgatle CV.pdf'
+import Pdf from '../constants/Johannes Kgatle_CV.pdf'
 
 const Navbar = () => {
   return (

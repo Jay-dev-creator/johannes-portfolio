@@ -37,6 +37,9 @@ const Hero = () => {
                     <div class="primary-heading section-3-heading text-lg-end">
                         I Am A <span class="fw-bold">Programmer</span>
                     </div>
+                    <div class="primary-heading section-3-heading text-lg-end">
+                        <span class="h4"><i class="fa fa-cloud text-primary" aria-hidden="true"></i> 3x Salesforce Certified***</span>
+                    </div>
                     <div class="section-3-image-left text-lg-end">
                         <img src={require("../assets/Section-3-image-1.jpg")} class="img-fluid sec3-images sec3-img-left" alt=""/>
                     </div>
