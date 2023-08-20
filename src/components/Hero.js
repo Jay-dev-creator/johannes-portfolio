@@ -42,7 +42,7 @@ const Hero = () => {
                         <span class="h4"><i class="fa fa-cloud text-primary" aria-hidden="true"></i> 4x Salesforce Certified</span>
                     </div>
                     <div class="section-3-image-left text-lg-end">
-                        <img src={require("../assets/Section-3-image-1.jpg")} class="img-fluid sec3-images sec3-img-left" alt=""/>
+                        <img src={require("../assets/CertificateCollection.png")} class="img-fluid sec3-images sec3-img-left" alt=""/>
                     </div>
                 </div>
                 <div class="col-lg-6 section-3-inner-col-right text-center mt-5 mt-lg-0">
