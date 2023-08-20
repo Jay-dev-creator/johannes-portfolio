@@ -74,7 +74,7 @@ const Hero = () => {
                             <b>Skills: Lightning Web Components, Visualforce, Apex, JavaScript, Apex Testing</b>
                         </p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">January 2022 - Present</span></div>
+                    {/* <div class="flex-shrink-0"><span class="text-primary">January 2022 - Present</span></div> */}
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
@@ -85,7 +85,7 @@ const Hero = () => {
                             can about software engineering.<br/>
                             <b>Skills: PHP, JavaScript, Web development MVC</b></p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">June 2021 - December 2022</span></div>
+                    {/* <div class="flex-shrink-0"><span class="text-primary">June 2021 - December 2022</span></div> */}
                 </div>
                 <h2 class="mb-5 mt-5 primary-heading section-3-heading text-center">Education</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
