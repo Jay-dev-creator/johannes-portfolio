@@ -19,7 +19,7 @@ const Hero = () => {
             <div class="row">
                 <div class="col text-center">
                     <div class="primary-heading">
-                        JOHANNES KGATLE <span class="fw-bold primary-heading-bold">software Developer</span>
+                        JOHANNES KGATLE <span class="fw-bold primary-heading-bold">software Developer (Salesforce)</span>
                     </div>
                     <div class="paragraph mx-auto mt-2">
                         New software trends are taking place over time. It is the nature of revolution to 
@@ -30,15 +30,16 @@ const Hero = () => {
                 </div>
             </div>
         </section>
+        
         {/* <!-- SECTION NO 3 --> */}
         <section class="container-fluid section-3">
             <div class="row section-3-inner">
                 <div class="col-lg-6 section-3-inner-col-left text-center">
                     <div class="primary-heading section-3-heading text-lg-end">
-                        I Am A <span class="fw-bold">Programmer</span>
+                    Innovating Reality,  <span class="fw-bold">One Code Block at a Time</span>
                     </div>
                     <div class="primary-heading section-3-heading text-lg-end">
-                        <span class="h4"><i class="fa fa-cloud text-primary" aria-hidden="true"></i> 3x Salesforce Certified***</span>
+                        <span class="h4"><i class="fa fa-cloud text-primary" aria-hidden="true"></i> 4x Salesforce Certified</span>
                     </div>
                     <div class="section-3-image-left text-lg-end">
                         <img src={require("../assets/Section-3-image-1.jpg")} class="img-fluid sec3-images sec3-img-left" alt=""/>
