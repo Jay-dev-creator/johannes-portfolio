@@ -4,7 +4,6 @@ import { Contact } from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import { Portfolio } from './components/Portfolio';
 import { Projects } from './components/Projects';
 
 function App() {
@@ -13,8 +12,7 @@ function App() {
       <Navbar/>
       <main className ="container-fluid main p-0">
         <Hero/>
-        <Portfolio/>
-        <Projects/>
+        {/* <Projects/> */}
         <Contact/>
         <Footer/>
       </main>
