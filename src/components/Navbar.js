@@ -25,15 +25,15 @@ const Navbar = () => {
                 <li class="nav-item navigation-list">
                     <a class="nav-link nav-custom-link" href="#experience">Experience</a>
                 </li>
-                <li class="nav-item navigation-list">
+                {/* <li class="nav-item navigation-list">
                     <a class="nav-link nav-custom-link" href="#my-portfolio">Portfolio</a>
-                </li>
+                </li> */}
                 <li class="nav-item navigation-list">
                     <a class="nav-link nav-custom-link" href="#section-contact">Contact</a>
                 </li>
-                <li class="nav-item navigation-list">
+                {/* <li class="nav-item navigation-list">
                     <a class="nav-link nav-custom-link" href={Pdf} target="_blank">Resume</a>
-                </li>
+                </li> */}
             </ul>
         </div>
     </nav>
