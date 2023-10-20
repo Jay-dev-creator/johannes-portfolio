@@ -1,7 +1,5 @@
-
-/* Sectiopn 1 */
 .section-1 {
-    background-color: #F2F2F2;
+    background-color: var(--primary-color);
     height: 450px;
     padding: 0px;
 }
@@ -13,10 +11,10 @@
 .image-frame {
     width: 380px;
     height: 380px;
-    background-image: url('../assets/newprofilepic.jpg');
+    background-image: url('../newprofilepic.jpg');
     background-position: center;
     background-size: cover;
-    border: 8px solid #FFFFFF;
+    border: 8px solid white;
     border-radius: 50%;
     position: absolute;
     top: 110px;
@@ -66,7 +64,7 @@
 .section-2 {
     margin: 60px 0 0 0;
     padding: 100px 0px 50px 0px;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
 }
 
 .primary-heading {
@@ -136,9 +134,9 @@
 /* SECTION NO 3 */
 
 .section-3 {
-    font-family: 'Roboto Slab', serif;
     padding: 50px 0px 50px 0px;
     position: relative;
+    background-color: #E9E9E9;
 }
 
 .section-3-inner-col-left,
@@ -150,10 +148,16 @@
     text-transform: none;
     letter-spacing: normal;
     font-size: 50px;
+    color: var(--primary-color);
 }
 
 .sec3-images {
     box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.inner-heading-text {
+    color: var(--secondary-color);
+    text-shadow: 1px 1px 1px var(--primary-color);
 }
 
 .section-3-image-left {
@@ -170,9 +174,8 @@
 }
 
 .sec3-btn-right {
-    font-family: Roboto, sans-serif;
     padding: 10px 30px;
-    border: 1px solid #000000;
+    border: 1px solid var(--secondary-color);
     color: #000000;
     letter-spacing: 2px;
     box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
@@ -182,9 +185,9 @@
 
 .sec3-btn-right:hover {
     color: #FFFFFF;
-    background-color: #FFFFFF;
+    background-color: var(--secondary-color);
     transform: translateY(-5px);
-    
+
 }
 
 .sec3-btn-right:active {
@@ -258,7 +261,7 @@
 
 
 /*  SECTION NO 4 */
- 
+
 .section-4 {
     padding: 200px 0px 150px 0px;
     display: flex;
@@ -272,13 +275,14 @@
 
 .section-4 .resume-section-content {
     width: 100%;
-  }
+}
 
 @media (min-width: 768px) {
     .section-4 {
         min-height: 100vh;
     }
 }
+
 @media (min-width: 992px) {
     .section-4 {
         padding-left: 3rem;
@@ -287,6 +291,7 @@
         padding-bottom: 5rem;
     }
 }
+
 /*
 .section-4-left {
     font-size: 110px;
